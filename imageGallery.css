@@ -1,0 +1,35 @@
+				.container{
+					float:left;
+						margin-top: 15px;
+				height: 300px;
+					width:300px;
+					background-image: url("https://media4.s-nbcnews.com/j/newscms/2016_36/1685951/ss-160826-twip-05_8cf6d4cb83758449fd400c7c3d71aa1f.nbcnews-ux-2880-1000.jpg");
+					background-size:cover;
+					padding:5px;
+					margin-right: 5px;
+					border: 5px solid green
+
+				}
+
+					@media (min-width: 801px) and (max-width:900px){
+
+					.container{
+
+						border:5px solid blue;
+						background-image: url("http://searchengineland.com/figz/wp-content/seloads/2014/08/four-pandas-ss-1920-800x450.jpg");
+					}
+
+
+
+				}
+
+				@media all and (max-width: 800px){
+
+					.container{
+
+						border:5px solid red;
+						background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSydBhJI3OSgPHzlXp1MM8z_90zxp6YrPwCTOrdzkmrZeRv60xC");
+					}
+				}
+
+			
